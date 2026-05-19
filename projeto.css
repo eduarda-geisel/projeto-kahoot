@@ -1,0 +1,75 @@
+/* Fundo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+  
+    height: 100vh;
+    margin: 0;
+  }
+  
+  
+  /* Título */
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  
+  /* Pergunta */
+  #pergunta {
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  
+  /* Área dos botões */
+  #alternativas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  /* Botões */
+  button {
+    padding: 12px;
+  
+    border: none;
+  
+    border-radius: 5px;
+  
+    background-color: #8b0404;
+  
+    color: white;
+  
+    font-size: 16px;
+  
+    cursor: pointer;
+  
+    transition: 0.3s;
+  }
+  
+  
+  /* Efeito ao passar mouse */
+  button:hover {
+    background-color: #574bdb;
+  }
+  
+  
+  /* Feedback */
+  #feedback {
+    margin-top: 20px;
+  
+    font-size: 20px;
+  
+    font-weight: bold;
+  }
+
+  
