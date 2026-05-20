@@ -1,3 +1,4 @@
+let pontos = 0;
 const questoes = [
   {
     id: 1,
@@ -37,7 +38,7 @@ const questoes = [
 
   {
     id: 4,
-    pergunta: "Qual é o principal vilão da série?",
+    pergunta: "Qual é o principal vilão da saga?",
     alternativas: [
       "Dumbledore",
       "Voldemort",
@@ -65,6 +66,7 @@ const questoes = [
 const perguntaEl = document.getElementById("pergunta");
 const alternativasEl = document.getElementById("alternativas");
 const feedbackEl = document.getElementById("feedback");
+const pontuacaoEl = document.getElementById("pontuacao");
 
 
 // Sorteia pergunta aleatória
@@ -96,6 +98,7 @@ perguntaAtual.alternativas.forEach((alternativa, indice) => {
 
       feedbackEl.textContent = "✅ Correto!";
       feedbackEl.style.color = "green";
+      pontos ++;
 
     } else {
 

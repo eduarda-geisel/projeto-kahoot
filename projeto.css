@@ -72,4 +72,8 @@ body {
     font-weight: bold;
   }
 
-  
+  .bloco {
+    background-color: #d69d9d;
+    padding: 50px;
+    border-radius: 25%;
+  }
